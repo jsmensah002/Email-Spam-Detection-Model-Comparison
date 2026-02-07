@@ -25,6 +25,6 @@ Random Forest Classifier Model Results:
 
 Key Insight:
 - Based on the test performance, both the logistic regression model and the support vector classifier achieved the same test score.
-- The final model now is chosen by comparing the difference between the R² on 80% of the training data and the R² on the 20% test data. The model with the smaller difference is preferred.
-- Between logistic regression and the support vector classifier, logistic regression has the smaller difference (0.0092) and is therefore selected as the final model.
+- The final model now is chosen by comparing the difference between the R² on 80% of the training data and the R² on the 20% test data. The model with the least train–test gap is preferred.
+- Between logistic regression and the support vector classifier, the logistic regression model has the least train–test gap (0.0092) and is therefore selected as the final model.
 - Lower difference = less overfitting = more stable on new data.
