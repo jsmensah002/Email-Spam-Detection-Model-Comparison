@@ -16,6 +16,6 @@ Linear Support Vector Classification Model Results:
 - Prediction = 0 = Not Spam
 
 Key Insight:
-- The final model is chosen by comparing the difference between the R² on 80% of the training data and the R² on the 20% test data. The model with the least train–test gap is preferred.
+- With both models having a high test score, the final model is chosen by comparing the difference between the R² on 80% of the training data and the R² on the 20% test data. The model with the least train–test gap is preferred.
 - Between logistic regression and the linear support vector classifier, the logistic regression model has the least train–test gap (0.0091) and is therefore selected as the final model.
 - Lower difference = less overfitting = more stable on new data.
